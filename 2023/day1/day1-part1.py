@@ -1,13 +1,12 @@
 import re
 
-calibrationFile = open('calibrationInput.txt', 'r')
+calibrationFile = open('input/calibrationInput.txt', 'r')
  
 calibartionsLines = calibrationFile.readlines()
  
 sumOfCalibrations = 0
 
 for calibrationLine in calibartionsLines:
-    for char is 
     calibration = re.sub("[^0-9]", "", calibrationLine)
 
     calibration = int(calibration[0]+calibration[-1])

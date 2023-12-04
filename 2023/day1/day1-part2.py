@@ -1,6 +1,6 @@
 import re
 
-calibrationFile = open('calibrationInput.txt', 'r')
+calibrationFile = open('inpuit/calibrationInput.txt', 'r')
  
 calibartionsLines = calibrationFile.readlines()
  
